@@ -1,6 +1,9 @@
 body{
 background-color: #ffe4d1;
 }
+*{
+box-sizing: border-box;
+}
 
 .mainBox{
 
@@ -159,6 +162,31 @@ height: 13px;
 
 
 
+}
+
+@media (max-width: 768px){
+  .mainBox,
+  .footer{
+    width: auto;
+    height: auto;
+    margin: 12px;
+  }
+
+  ol{
+    flex-direction: column;
+  }
+
+  .box1 img,
+  .box2,
+  .box3{
+    width: 100%;
+    height: auto;
+    margin: 6px 0;
+  }
+
+  .footer{
+    flex-wrap: wrap;
+  }
 }
 
 
