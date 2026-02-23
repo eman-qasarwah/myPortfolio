@@ -62,7 +62,7 @@ border-radius: 20px;
 
 }
 .box2{
-width:300px;
+width:350px;
 height: 200px;
 border-radius: 20px;
 border: 1.5px solid rgba(173, 173, 173, 0.925);
@@ -87,7 +87,7 @@ ul{
 .box3{
 
 
-width:350px;
+width:400px;
 height: 200px;
 border-radius: 20px;
 border: 1.5px solid rgba(173, 173, 173, 0.925);
@@ -144,7 +144,7 @@ border-radius: 20px;
 .lBox1 img{
 
 height: 95px;
-width: 150px;
+width: 260px;
 border-radius: 20px;
 margin: 5px;
 }
