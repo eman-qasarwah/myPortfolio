@@ -1,0 +1,177 @@
+body{
+background-color: #ffe4d1;
+}
+
+.mainBox{
+
+width: 90vw;
+height: 75vh;
+background-color: #fff8ef;
+/* display: flex; */
+margin: 25px;
+border-radius: 20px;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+
+
+}
+h1{
+    color: #eb5e55;
+     margin: 7px;
+    font-size:13px ;
+   padding: 5px;
+    font-family: "Space Grotesk", "Segoe UI", sans-serif;
+}
+.text1{
+
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+ margin:5px;
+  padding: 5px;
+ 
+
+}
+.text2{
+color: rgba(129, 126, 126, 0.726);
+ font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+ margin:5px;
+  padding: 5px;
+
+
+}
+.box1 img{
+
+width: 200px;
+height: 200px;
+border-radius: 20px;
+border: 1.5px solid rgba(173, 173, 173, 0.925);
+margin: 8px;
+
+}
+ol{
+  list-style: none;
+  border: 0.05px solid #d6d1d1;
+ box-shadow: 0 05px 5px rgba(173, 173, 173, 0.925);
+display: flex; 
+border-radius: 20px;
+ margin:5px;
+  padding: 5px;
+
+
+}
+.box2{
+width:300px;
+height: 200px;
+border-radius: 20px;
+border: 1.5px solid rgba(173, 173, 173, 0.925);
+margin: 8px;
+flex-wrap: wrap;
+}
+.text3{
+
+color: rgba(20, 20, 20, 0.89);
+ font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+ margin:15px;
+  padding: 8px;
+
+
+}
+ul{
+ list-style-type: disc;
+
+}
+.box3{
+
+
+width:350px;
+height: 200px;
+border-radius: 20px;
+border: 1.5px solid rgba(173, 173, 173, 0.925);
+margin: 8px;
+flex-wrap: wrap;
+
+
+}
+
+.logos img{
+height: 20px;
+width: 20px;
+border-radius: 20px;
+margin: 2px;
+
+
+
+}
+
+
+
+
+
+
+
+.footer{
+
+width: 90vw;
+height: 20vh;
+
+background-color: #fff8ef;
+display: flex;
+margin: 25px;
+border-radius: 20px;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+ 
+
+}
+.test{
+
+  display: flex;
+  margin: 10px;
+}
+.text4{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;
+  /* display: flex; */
+  margin: 10px;
+  list-style-type: none;
+
+}
+.lBox1 img{
+
+height: 95px;
+width: 150px;
+border-radius: 20px;
+margin: 5px;
+}
+
+.lBox{
+font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #444141;
+  display: flex;
+height: 13px;
+
+
+
+}
+
+
+
+
+
+
+
+/* .lowerMain{
+
+border: 1.5px solid #706f6f;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+
+
+
+} */
