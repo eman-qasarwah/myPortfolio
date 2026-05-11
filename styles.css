@@ -1,30 +1,39 @@
 ﻿body {
-          margin: 0;
+  margin: 0;
   background-color: #ffe4d1;
-     font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  color: #333;
+  line-height: 1.6;
 }
 
-.main-box {
+.container {
   width: 92%;
-  margin: 20px auto;
-  background-color: #fff8ef;
-  border-radius: 18px;
-  padding: 16px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
-.header-row {
+header {
+  background-color: #fff8ef;
+  border-radius: 0 0 18px 18px;
+  margin-bottom: 20px;
+}
+
+.header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-      gap: 12px;
+  gap: 12px;
   flex-wrap: wrap;
+  padding: 20px 16px;
 }
 
 .logo {
   width: 85px;
-     height: 85px;
+  height: 85px;
   border-radius: 14px;
+  border: 3px solid #eb5e55;
+  box-shadow: 0 4px 8px rgba(235, 94, 85, 0.3);
 }
 
 .name-side h1 {
@@ -41,93 +50,176 @@
 
 .my-photo {
   width: 130px;
-            height: 130px;
+  height: 130px;
   border-radius: 16px;
   object-fit: cover;
-     object-position: center top;
-  border: 1px solid #d6d1d1;
+  object-position: center top;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: #eb5e55;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-section {
+  background-color: #fff8ef;
+  border-radius: 18px;
+  padding: 20px;
 }
 
 .about {
   color: #555;
-                   line-height: 1.7;
-  margin: 16px 0;
+  font-size: 16px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.cards {
-  display: flex;
-      gap: 12px;
-  flex-wrap: wrap;
+.skills-section {
+  background-color: #fff8ef;
+  border-radius: 18px;
+  padding: 20px;
 }
 
-.card {
-  
-  
-  
-  
-  
-  flex: 1;
-  
-  
-  min-width: 220px;
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.skill {
+  background-color: #fffdf9;
   border: 1px solid #ddd6cf;
   border-radius: 14px;
- 
-  padding: 12px;
-  background-color: #fffdf9;
+  padding: 16px;
+  text-align: center;
 }
 
-.card h2 {
+.skill h3 {
   margin-top: 0;
-       
-  margin-bottom: 8px;
+  color: #eb5e55;
   font-size: 18px;
 }
 
-.card p {
-  margin-top: 0;
-  
-  
-  
+.skill p {
+  margin: 8px 0 0 0;
   color: #444;
-  line-height: 1.6;
 }
 
-.card a {
+.projects-section {
+  background-color: #fff8ef;
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #fffdf9;
+  border: 1px solid #ddd6cf;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #eb5e55;
+  font-size: 18px;
+}
+
+.project-card p {
+  margin: 8px 0;
+  color: #444;
+}
+
+.project-card a {
   color: #eb5e55;
   font-weight: 700;
   text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.achievements-section {
+  background-color: #fff8ef;
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.achievement-card {
+  background-color: #fffdf9;
+  border: 1px solid #ddd6cf;
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.achievement-card h3 {
+  margin-top: 0;
+  color: #eb5e55;
+  font-size: 18px;
+}
+
+.achievement-card p {
+  margin: 8px 0;
+  color: #444;
 }
 
 .pcpc-photo {
-  width: 150px;
-  height: 100px;
+  width: 100%;
+  max-width: 300px;
+  height: 159px;
   object-fit: cover;
   object-position: center;
-  border: 0;
   border-radius: 10px;
   display: block;
-  margin-top: 8px;
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 5px;
 }
 
-.footer {
-  width: 92%;
-  margin: 0 auto 20px auto;
+footer {
   background-color: #fff8ef;
-  border-radius: 18px;
-  padding: 12px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+  border-radius: 18px 18px 0 0;
+  margin-top: 20px;
+}
+
+.footer-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 0;
 }
 
 .footer a {
   color: #333;
   text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
 }
 
+.footer a:hover {
+  color: #eb5e55;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
   .name-side h1 {
     font-size: 24px;
   }
@@ -140,5 +232,38 @@
   .logo {
     width: 72px;
     height: 72px;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
+
+  .skills-grid,
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+    padding: 0 8px;
+  }
+
+  .header-content {
+    padding: 16px 8px;
+  }
+
+  section {
+    padding: 16px;
+  }
+
+  .about {
+    font-size: 14px;
   }
 }

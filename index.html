@@ -10,62 +10,109 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="main-box">
-    <div class="header-row">
-      <img class="logo" src="logo.png" alt="logo">
-
-      <div class="name-side">
-        <h1>Eman Qasarwah</h1>
-      
-      
-      
-        <p class="title">Computer Systems Engineering Student</p>
-      </div>
-
-
-
-      <img class="my-photo" src="emansphoto.jpeg" alt="Eman photo">
-    </div>
-
-    <p class="about">
-    
-    
-    
-    
-        Hi, I am Eman Qasarwah. I focus on front-end development and building clean, organized, and responsive web pages.
-    </p>
-
-    <div class="cards">
-      <div class="card">
-        <h2>One Of My Achievements</h2>
-        
-        <p>I represented my university in the PCPC competition.</p>
-       
-        <img class="pcpc-photo" src="pcpcPhoto.jpeg" alt="PCPC competition">
-      </div>
-
-      <div class="card">
-      
-      
-      
-      
-        <h2>Featured Project</h2>
-        <p>This is one of my projects built using HTML and CSS.</p>
-        <a href="https://eman-qasarwah.github.io/AnimalTradingCards/" target="_blank" rel="noopener noreferrer">View Project</a>
-      </div>
-
-      <div class="card">
-        <h2>Quick Note</h2>
-        <p>I keep improving my front-end skills, and I am currently developing them with Udacity as a student there.</p>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <svg class="logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="45" fill="#eb5e55" stroke="#fff" stroke-width="5"/>
+          <text x="50" y="55" font-family="Ubuntu, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#fff">EQ</text>
+        </svg>
+        <div class="name-side">
+          <h1>Eman Qasarwah</h1>
+          <p class="title">Computer Systems Engineering Student</p>
+        </div>
+        <img class="my-photo" src="emansphoto.jpeg" alt="Eman photo">
       </div>
     </div>
-  </div>
+  </header>
 
-  <div class="footer">
-    <a href="https://www.linkedin.com/in/eman-qasarwah-261711348" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    <a href="https://wa.me/972594687535" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-    <a href="https://instagram.com/eman.qsrawi" target="_blank" rel="noopener noreferrer">Instagram</a>
-    <a href="https://codeforces.com/profile/eman.qasrawah" target="_blank" rel="noopener noreferrer">Codeforces</a>
-  </div>
+  <main>
+    <section class="about-section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p class="about">
+          Hi, I am Eman Qasarwah. I focus on front-end development and building clean, organized, and responsive web pages. I am passionate about creating interactive experiences and continuously improving my skills in programming and web development.
+        </p>
+      </div>
+    </section>
+
+    <section class="skills-section">
+      <div class="container">
+        <h2>Skills & Learning</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <h3>HTML & CSS</h3>
+            <p>I learned how to build web pages using HTML and style them using CSS, and how to connect both together to create structured websites.</p>
+          </div>
+          <div class="skill">
+            <h3>JavaScript</h3>
+            <p>I learned the basics of JavaScript, including variables, loops, functions, arrays, and objects.</p>
+          </div>
+          <div class="skill">
+            <h3>Python</h3>
+            <p>I have experience building interactive games and applications using Python, focusing on logic and user interaction.</p>
+          </div>
+          <div class="skill">
+            <h3>Resume Writing</h3>
+            <p>I learned how to write a strong resume, preparing professional CVs for different job roles in the tech field.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Adventure Game (Python)</h3>
+            <p>I built a simple interactive Adventure Game using Python. I used loops and if statements to control the game flow and create different paths for the player. This project helped me practice logic building and understand how programming can create fun and interactive experiences.</p>
+            <a href="https://github.com/eman-qasarwah/Adventure-Game" target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+          <div class="project-card">
+            <h3>Rock Paper Scissors Game (Python)</h3>
+            <p>I built this project using Python. It was a very interactive game where the player competes against the computer in the classic Rock, Paper, Scissors game. The game takes user input and compares it with the computer's random choice to decide the winner. It was a fun project that helped me practice programming logic and understand how to build interactive programs using Python.</p>
+            <a href="https://github.com/eman-qasarwah/Rock-Paper-Scissors" target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+          <div class="project-card">
+            <h3>Animal Trading Card (HTML & CSS)</h3>
+            <p>I built a simple web page using HTML and CSS. In this project, I applied all the concepts I learned, including structuring content with HTML and styling it with CSS to create a clean and organized design.</p>
+            <a href="https://github.com/eman-qasarwah/AnimalTradingCards" target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+          <div class="project-card">
+            <h3>My Portfolio (HTML & CSS)</h3>
+            <p>I also built my own portfolio using HTML and CSS. In this project, I used everything I learned about structuring web pages with HTML and styling them with CSS to create a simple and clean personal portfolio. It helped me practice how to organize content and design a basic but well-structured website.</p>
+            <a href="https://github.com/eman-qasarwah/my-portfolio" target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="achievements-section">
+      <div class="container">
+        <h2>Achievements</h2>
+        <div class="achievement-card">
+          <h3>PCPC Competition</h3>
+          <p>I represented my university in the PCPC competition.</p>
+          <img class="pcpc-photo" src="pcpcPhoto.jpeg" alt="PCPC competition">
+        </div>
+        <div class="achievement-card">
+          <h3>Udacity Student</h3>
+          <p>I keep improving my front-end skills, and I am currently developing them with Udacity as a student there.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/eman-qasarwah-261711348" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://wa.me/972594687535" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a href="https://instagram.com/eman.qsrawi" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://codeforces.com/profile/eman.qasrawah" target="_blank" rel="noopener noreferrer">Codeforces</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
